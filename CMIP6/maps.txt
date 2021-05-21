@@ -1,0 +1,6 @@
+/export/witham3/test-suite/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2017-r1i1p1f1.Amon.prw.gn.v20210114.map
+/export/witham3/test-suite/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2017-r1i1p1f1.Amon.psl.gn.v20210114.map
+/export/witham3/test-suite/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2019-r9i1p1f1.Amon.tas.gn.v20210114.map
+/export/witham3/test-suite/CMIP6/CMIP6.HighResMIP.CMCC.CMCC-CM2-VHR4.highres-future.r1i1p1f1.fx.areacella.gn.v20210330.map
+/export/witham3/test-suite/CMIP6/CMIP6.HighResMIP.CMCC.CMCC-CM2-VHR4.highres-future.r1i1p1f1.fx.orog.gn.v20210330.map
+/export/witham3/test-suite/CMIP6/CMIP6.HighResMIP.CMCC.CMCC-CM2-VHR4.highresSST-future.r1i1p1f1.fx.areacella.gn.v20210330.map
