@@ -1,0 +1,1270 @@
+Parameters:
+  --files <string> ["/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/deptho/*.nc"] 
+  --in_json <string> [""] 
+  --out_xml <string> [""] 
+  --out_json <string> ["/tmp/tmppel2bbus"] 
+  --out_pretty <bool> [true] 
+------------------------------------------------------------
+Creating IndexedDataset.. Done
+Populating IndexedDataset
+Indexing /p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/deptho/deptho_fx_CCSM4_decadal2001_r0i0p0.nc
+..Loading dimensions
+..Loading variables
+.. Done
+Output to JSON file
+.. Done
+------------------------------------------------------------
+Converting mapfile...
+Done.
+Running autocurator...
+autocurator --out_pretty --out_json /tmp/tmppel2bbus --files "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/deptho/*.nc"
+Done.
+Making dataset...
+Record:
+{
+    "project": "cmip5",
+    "product": "output1",
+    "institute": "NCAR",
+    "model": "CCSM4",
+    "experiment": "decadal2001",
+    "realm": "fx",
+    "time_frequency": "ocean",
+    "ensemble": "fx",
+    "variable": "deptho",
+    "data_node": "greyworm1-rh7.llnl.gov",
+    "index_node": "esgf-fedtest.llnl.gov",
+    "master_id": "cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0",
+    "instance_id": "cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313",
+    "id": "cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov",
+    "title": "cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0",
+    "replica": false,
+    "latest": "true",
+    "type": "Dataset",
+    "version": "20130313",
+    "dataset_id_template_": "%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s",
+    "directory_format_template_": "%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s",
+    "variable_long_name": "Sea Floor Depth",
+    "cf_standard_name": "sea_floor_depth_below_geoid",
+    "variable_units": "m",
+    "number_of_files": 5
+}
+
+Mapfile dictionary:
+[
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/deptho/deptho_fx_CCSM4_decadal2001_r0i0p0.nc",
+        "size": 5420248,
+        "timestamp": "2013-03-11T16:06:35Z",
+        "checksum": "6dc93294bab2227b5482e18cee849e5a5a40fe6d4b72af9324609267f2bf2dc7",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/sftof/sftof_fx_CCSM4_decadal2001_r0i0p0.nc",
+        "size": 5420140,
+        "timestamp": "2013-03-11T16:06:42Z",
+        "checksum": "8e207a14b12d26d1b88d90d219b41f5a1bd4d94ad8d9b1948ce8a4e6315f6afb",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/areacello/areacello_fx_CCSM4_decadal2001_r0i0p0.nc",
+        "size": 5420024,
+        "timestamp": "2013-03-11T16:06:31Z",
+        "checksum": "937c3a114df4b5ad9e2fcf5cab9212bcaef7e49cf63a6bdf6dbc0b4094559895",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/thkcello/thkcello_fx_CCSM4_decadal2001_r0i0p0.nc",
+        "size": 34421620,
+        "timestamp": "2013-03-11T16:06:58Z",
+        "checksum": "2d5d1ff70b2f41e1829890c99b21e2cb2d150f3696c01ee65b2962a1940fea57",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/volcello/volcello_fx_CCSM4_decadal2001_r0i0p0.nc",
+        "size": 34421356,
+        "timestamp": "2012-06-13T21:17:21Z",
+        "checksum": "ab1c7e38bdecfc2d540ea0b9ace2dd2c1cbbb101b270dade30ff818a95d95468",
+        "checksum_type": "SHA256"
+    }
+]
+
+Autocurator Scanfile dictionary:
+{
+    "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/deptho/deptho_fx_CCSM4_decadal2001_r0i0p0.nc": {
+        "Conventions": "CF-1.4",
+        "axes": [
+            [
+                "bnds",
+                "0"
+            ],
+            [
+                "i",
+                "0"
+            ],
+            [
+                "j",
+                "0"
+            ],
+            [
+                "vertices",
+                "0"
+            ]
+        ],
+        "history": "2012-02-02T18:56:52Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.",
+        "name": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/deptho/deptho_fx_CCSM4_decadal2001_r0i0p0.nc",
+        "tracking_id": "19f168fc-6458-43f1-bab3-29ce1b241bb1"
+    }
+}
+
+Aggregate record:
+{
+    "project": "cmip5",
+    "product": "output1",
+    "institute": "NCAR",
+    "model": "CCSM4",
+    "experiment": "decadal2001",
+    "realm": "fx",
+    "time_frequency": "ocean",
+    "ensemble": "fx",
+    "variable": [
+        "deptho"
+    ],
+    "data_node": "greyworm1-rh7.llnl.gov",
+    "index_node": "esgf-fedtest.llnl.gov",
+    "master_id": "cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0",
+    "instance_id": "cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313",
+    "id": "cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov",
+    "title": "cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0",
+    "replica": false,
+    "latest": "true",
+    "type": "Dataset",
+    "version": "20130313",
+    "dataset_id_template_": "%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s",
+    "directory_format_template_": "%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s",
+    "variable_long_name": [
+        "Sea Floor Depth"
+    ],
+    "cf_standard_name": [
+        "sea_floor_depth_below_geoid"
+    ],
+    "variable_units": [
+        "m"
+    ],
+    "number_of_files": 5,
+    "size": 5420248,
+    "access": [
+        "HTTPServer",
+        "OPENDAP"
+    ]
+}
+Done.
+Updating...
+Search Url: 'https://esgf-fedtest.llnl.gov/esg-search/search/?latest=true&distrib=false&format=application%2Fsolr%2Bjson&data_node=greyworm1-rh7.llnl.gov&master_id=cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0&fields=version,id'
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":2,
+    "params":{
+      "df":"text",
+      "q.alt":"*:*",
+      "indent":"true",
+      "echoParams":"all",
+      "fl":"id,version,score",
+      "start":"0",
+      "fq":["type:Dataset",
+        "latest:true",
+        "data_node:\"greyworm1-rh7.llnl.gov\"",
+        "master_id:\"cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0\""],
+      "rows":"10",
+      "q":"*:*",
+      "tie":"0.01",
+      "facet.limit":"-1",
+      "qf":"text",
+      "facet.method":"enum",
+      "facet.mincount":"1",
+      "wt":"json",
+      "facet":"true",
+      "facet.sort":"lex"}},
+  "response":{"numFound":1,"start":0,"maxScore":1.0,"docs":[
+      {
+        "id":"cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov",
+        "version":"20130313",
+        "score":1.0}]
+  },
+  "facet_counts":{
+    "facet_queries":{},
+    "facet_fields":{},
+    "facet_ranges":{},
+    "facet_intervals":{},
+    "facet_heatmaps":{}}}
+
+<updates core="datasets" action="set">
+            <update>
+              <query>id=cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov</query>
+              <field name="latest">
+                 <value>false</value>
+              </field>
+              <field name="_timestamp">
+                 <value>2021-05-24T23:17:07Z</value>
+              </field>
+            </update>
+            </updates>
+            
+
+<?xml version="1.0" encoding="UTF-8"?><response status="success"><message>Number of records updated: 1</message></response>
+<updates core="files" action="set">
+            <update>
+              <query>dataset_id=cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov</query>
+              <field name="latest">
+                 <value>false</value>
+              </field>
+              <field name="_timestamp">
+                 <value>2021-05-24T23:17:07Z</value>
+              </field>
+            </update>
+            </updates>
+            
+
+<?xml version="1.0" encoding="UTF-8"?><response status="success"><message>Number of records updated: 1</message></response>
+INFO: Found previous version, updating the record: cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov
+Done.
+Running index pub...
+<doc>
+  <field name="project">cmip5</field>
+  <field name="product">output1</field>
+  <field name="institute">NCAR</field>
+  <field name="model">CCSM4</field>
+  <field name="experiment">decadal2001</field>
+  <field name="realm">fx</field>
+  <field name="time_frequency">ocean</field>
+  <field name="ensemble">fx</field>
+  <field name="variable">deptho</field>
+  <field name="data_node">greyworm1-rh7.llnl.gov</field>
+  <field name="index_node">esgf-fedtest.llnl.gov</field>
+  <field name="master_id">cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0</field>
+  <field name="instance_id">cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313</field>
+  <field name="id">cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313.deptho_fx_CCSM4_decadal2001_r0i0p0.nc</field>
+  <field name="title">deptho_fx_CCSM4_decadal2001_r0i0p0.nc</field>
+  <field name="replica">False</field>
+  <field name="latest">true</field>
+  <field name="type">File</field>
+  <field name="version">20130313</field>
+  <field name="dataset_id_template_">%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s</field>
+  <field name="directory_format_template_">%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s</field>
+  <field name="variable_long_name">Sea Floor Depth</field>
+  <field name="cf_standard_name">sea_floor_depth_below_geoid</field>
+  <field name="variable_units">m</field>
+  <field name="dataset_id">cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov</field>
+  <field name="tracking_id">19f168fc-6458-43f1-bab3-29ce1b241bb1</field>
+  <field name="size">5420248</field>
+  <field name="timestamp">2013-03-11T16:06:35Z</field>
+  <field name="checksum">6dc93294bab2227b5482e18cee849e5a5a40fe6d4b72af9324609267f2bf2dc7</field>
+  <field name="checksum_type">SHA256</field>
+  <field name="url">https://greyworm1-rh7.llnl.gov/thredds/fileServer/css03_data/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/deptho/deptho_fx_CCSM4_decadal2001_r0i0p0.nc|application/netcdf|HTTPServer</field>
+  <field name="url">https://greyworm1-rh7.llnl.gov/thredds/dodsC/css03_data/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/fx/ocean/fx/r0i0p0/v20130313/deptho/deptho_fx_CCSM4_decadal2001_r0i0p0.nc.html|application/opendap-html|OPENDAP</field>
+</doc>
+Parameters:
+  --files <string> ["/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/*.nc"] 
+  --in_json <string> [""] 
+  --out_xml <string> [""] 
+  --out_json <string> ["/tmp/tmplo76bh6m"] 
+  --out_pretty <bool> [true] 
+------------------------------------------------------------
+Creating IndexedDataset.. Done
+Populating IndexedDataset
+Indexing /p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc
+..Loading dimensions
+..Loading variables
+Indexing /p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc
+..Loading dimensions
+..Loading variables
+
+..WARNING: Variable "rtmt" has inconsistentvalue of attribute "history" across files
+..Done
+Output to JSON file
+.. Done
+------------------------------------------------------------
+
+<?xml version="1.0" encoding="UTF-8"?><response status="success"><message>Published record: cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313.deptho_fx_CCSM4_decadal2001_r0i0p0.nc</message></response>
+<doc>
+  <field name="project">cmip5</field>
+  <field name="product">output1</field>
+  <field name="institute">NCAR</field>
+  <field name="model">CCSM4</field>
+  <field name="experiment">decadal2001</field>
+  <field name="realm">fx</field>
+  <field name="time_frequency">ocean</field>
+  <field name="ensemble">fx</field>
+  <field name="variable">deptho</field>
+  <field name="data_node">greyworm1-rh7.llnl.gov</field>
+  <field name="index_node">esgf-fedtest.llnl.gov</field>
+  <field name="master_id">cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0</field>
+  <field name="instance_id">cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313</field>
+  <field name="id">cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov</field>
+  <field name="title">cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0</field>
+  <field name="replica">False</field>
+  <field name="latest">true</field>
+  <field name="type">Dataset</field>
+  <field name="version">20130313</field>
+  <field name="dataset_id_template_">%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s</field>
+  <field name="directory_format_template_">%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s</field>
+  <field name="variable_long_name">Sea Floor Depth</field>
+  <field name="cf_standard_name">sea_floor_depth_below_geoid</field>
+  <field name="variable_units">m</field>
+  <field name="number_of_files">5</field>
+  <field name="size">5420248</field>
+  <field name="access">HTTPServer</field>
+  <field name="access">OPENDAP</field>
+</doc>
+
+<?xml version="1.0" encoding="UTF-8"?><response status="success"><message>Published record: cmip5.output1.NCAR.CCSM4.decadal2001.fx.ocean.fx.r0i0p0.v20130313|greyworm1-rh7.llnl.gov</message></response>
+Done. Cleaning up.
+Converting mapfile...
+Done.
+Running autocurator...
+autocurator --out_pretty --out_json /tmp/tmplo76bh6m --files "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/*.nc"
+Done.
+Making dataset...
+Record:
+{
+    "project": "cmip5",
+    "product": "output1",
+    "institute": "NCAR",
+    "model": "CCSM4",
+    "experiment": "decadal2001",
+    "realm": "mon",
+    "time_frequency": "atmos",
+    "ensemble": "Amon",
+    "variable": "rtmt",
+    "data_node": "greyworm1-rh7.llnl.gov",
+    "index_node": "esgf-fedtest.llnl.gov",
+    "master_id": "cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1",
+    "instance_id": "cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031",
+    "id": "cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031|greyworm1-rh7.llnl.gov",
+    "title": "cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1",
+    "replica": false,
+    "latest": "true",
+    "type": "Dataset",
+    "version": "20121031",
+    "dataset_id_template_": "%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s",
+    "directory_format_template_": "%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s",
+    "variable_long_name": "Net Downward Flux at Top of Model",
+    "cf_standard_name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
+    "variable_units": "W m-2",
+    "north_degrees": 90.0,
+    "south_degrees": -90.0,
+    "east_degrees": 358.75,
+    "west_degrees": 0.0,
+    "datetime_start": "2005-01-16T00:00:00Z",
+    "datetime_end": "2010-12-15T00:00:00Z",
+    "number_of_files": 92
+}
+
+Mapfile dictionary:
+[
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295144,
+        "timestamp": "2017-02-08T06:39:40Z",
+        "checksum": "81ead66ba35b3f8619ee758cee3465b3be88b7a691a7792b6fb13c616117dbec",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949640,
+        "timestamp": "2017-02-08T06:39:41Z",
+        "checksum": "9afc2277ecf76043b0fc297ae95033e9897ab73923eeff2dda9a15bf0d5fbb89",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/prc/prc_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294856,
+        "timestamp": "2017-02-08T06:39:46Z",
+        "checksum": "4fe07ec424659fe642e3a96b06fc9e25d1df93ef887cfba25abd85c2f1b25917",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/prc/prc_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949352,
+        "timestamp": "2017-02-08T06:39:46Z",
+        "checksum": "0d272eb619c7f2fb3577654bc16d45d924ce82f1cd493dadc20888ffc9ec3d36",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hfls/hfls_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294952,
+        "timestamp": "2017-02-08T06:39:50Z",
+        "checksum": "13b4d4a6842076ca1c13586e587e16913640a94818cf6b2d9a025aca30bb2aa7",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rlds/rlds_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294908,
+        "timestamp": "2017-02-08T06:40:18Z",
+        "checksum": "c2d7597b729f528f377eaeb65eeb105b4e08e3d6f9aff96f02d2456fbef21301",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rlds/rlds_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949404,
+        "timestamp": "2017-02-08T06:40:18Z",
+        "checksum": "114f7ff149dab4a78319567df9b8675cb8471c6e9e428933828fe93eb63c42a0",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hfls/hfls_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949448,
+        "timestamp": "2017-02-08T06:39:50Z",
+        "checksum": "1abd9390c09344d1048b487f4200c9c37d5b26e6bc60cb8a493b5cf6f7942fc7",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/prw/prw_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294952,
+        "timestamp": "2017-02-08T06:39:46Z",
+        "checksum": "25b5910e2bfd6e8c425a2ff3d5ab780d372e355870248eab1c6919e6b52494d6",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/prw/prw_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949448,
+        "timestamp": "2017-02-08T06:39:46Z",
+        "checksum": "fb84f2c88dc65b01de1ded3b9309eac6d7e91b51577e6e4ca3b7f24f6cc688e9",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hur/hur_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 225632000,
+        "timestamp": "2017-02-08T06:40:02Z",
+        "checksum": "9cb75ace08547c5ff6661c2d0c72d32a6a2212fd60444388988bbe26043975d0",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/clwvi/clwvi_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295204,
+        "timestamp": "2017-02-08T06:39:46Z",
+        "checksum": "2f2fb918d7e0bbb520cdafcfa0d70f2d5e51664b46f524dbb32aaaff02bde091",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hur/hur_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 270753824,
+        "timestamp": "2017-02-08T06:40:03Z",
+        "checksum": "d6e8aa04bce9b14abc2be591aa86ec444fa17def9b5d21d25399bdb325699790",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/prsn/prsn_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294876,
+        "timestamp": "2017-02-08T06:40:09Z",
+        "checksum": "619171dfc5b9bf32d9d63cbdc0315c760854557a1863ff915bed8d0c96dea164",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/clwvi/clwvi_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949700,
+        "timestamp": "2017-02-08T06:39:45Z",
+        "checksum": "0ffe1d0dab38b5f0480e1df561e64ab223a30e637bea17e59372ecd39974b8c9",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/prsn/prsn_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949372,
+        "timestamp": "2017-02-08T06:40:09Z",
+        "checksum": "55447a1d8fc4baa8d6ab43610cff2bcc2170907b82f840c50870e61851b85006",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hus/hus_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 225631864,
+        "timestamp": "2017-02-08T06:40:18Z",
+        "checksum": "3cd6cf8eccf0f5fcb48bb704e8b168060f7944f7df322143e40385cacc7c11c9",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tauu/tauu_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294852,
+        "timestamp": "2017-02-08T06:40:25Z",
+        "checksum": "c879fa494d7e4f62f93bc51638646dfed59741bf29251007815fc6fdc2daf6c8",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hus/hus_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 270753688,
+        "timestamp": "2017-02-08T06:40:17Z",
+        "checksum": "a5d4588a9d105ed9f1ad71e4a3c1809864b76fc625681a7241a452b6616bb31a",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tauu/tauu_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949348,
+        "timestamp": "2017-02-08T06:40:25Z",
+        "checksum": "91854dc07af47bd1afcb22d5b0f57d96523d488f792adbce5a3b17a3b48e41e6",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rlutcs/rlutcs_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294920,
+        "timestamp": "2017-02-08T06:39:54Z",
+        "checksum": "72c15f43f266f2db79759d6151f3db6afc292cf30d3a1d39d42e25856d7f0a87",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rlutcs/rlutcs_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949416,
+        "timestamp": "2017-02-08T06:39:54Z",
+        "checksum": "118509625686faa05c722b5332da5ebca35d97e6be7a7a7e20c95cebd4d0a66d",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tas/tas_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295044,
+        "timestamp": "2017-02-08T06:39:51Z",
+        "checksum": "243fe4ec4f7f9f5c3a3cce92ddb1860347a2605db9d851565844c6a2e07c6ee3",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tas/tas_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949540,
+        "timestamp": "2017-02-08T06:39:51Z",
+        "checksum": "07aa540b77480345fe0b6f7c36175a68a3ed6ab7399718abf8c4f201114e8adf",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/clt/clt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295024,
+        "timestamp": "2017-02-08T06:40:14Z",
+        "checksum": "1ee760c460ad427effa34ff7ae80210e5b13dadf46a5e238d1c08ee6ea99a037",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/clt/clt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949520,
+        "timestamp": "2017-02-08T06:40:15Z",
+        "checksum": "5e2bb5d82de9ef00b07a76dd56f8a12a5982969d118d89f5b3ad1fa21bd35684",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tauv/tauv_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294852,
+        "timestamp": "2017-02-08T06:40:10Z",
+        "checksum": "749c1a319cad492340e5f9abc7caf37b1b1cb2721218601179d8930b0ba0e2fa",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tauv/tauv_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949348,
+        "timestamp": "2017-02-08T06:40:10Z",
+        "checksum": "4b55abf8059187dbd2de667a0d203918f395a4cb4a8963be5f570cedccb7ca79",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/va/va_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 225631760,
+        "timestamp": "2017-02-08T06:40:28Z",
+        "checksum": "77b0e090eb55c571d664f66233257bf36541c1364b50f22692b1037faa3079ba",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ci/ci_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294860,
+        "timestamp": "2017-02-08T06:40:10Z",
+        "checksum": "966badcc699c5637c5f7b058560de60bcb2282b8a589b7c49cc0c50ebe4bfb9b",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ci/ci_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949356,
+        "timestamp": "2017-02-08T06:40:10Z",
+        "checksum": "0d0bdc236fac96a7e163c2ac7007769469aadcf01a19a23a86611a6dd1b1e674",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/clivi/clivi_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295172,
+        "timestamp": "2017-02-08T06:39:41Z",
+        "checksum": "9da4365d9faace5e575b856fadb03f4ff193e1405e61cbbaa324bbd6932226b5",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/clivi/clivi_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949668,
+        "timestamp": "2017-02-08T06:39:41Z",
+        "checksum": "cf1db3efeb9f6dc573d87a43e4ff5aec20cd8afb2f14b236f2034a92d8364d79",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/va/va_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 270753584,
+        "timestamp": "2017-02-08T06:40:27Z",
+        "checksum": "a3855c767f511b36c7548f7dbfe5bbb7dd2d4bf62f104a3f3c6908e1e9d44215",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ua/ua_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 225631760,
+        "timestamp": "2017-02-08T06:39:45Z",
+        "checksum": "47ba972c8e416f2e4481e2e622b3b175bb620517fb21b7a677ceaff825118589",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hfss/hfss_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294896,
+        "timestamp": "2017-02-08T06:39:50Z",
+        "checksum": "40adab762319e84a5a5b02942457ed038c09fa0f9bceffbf649c86ab41c3c16b",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hfss/hfss_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949392,
+        "timestamp": "2017-02-08T06:39:50Z",
+        "checksum": "c9826bfea601d71a5d31addb3a173d0f6812e731cebace6cf2fdf920cda7ceaf",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ps/ps_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294732,
+        "timestamp": "2017-02-08T06:39:41Z",
+        "checksum": "3ad34b823925ac1364fedbfff1ecc8832ed80fb299ff9237eb5f66648e112cb1",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ps/ps_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949228,
+        "timestamp": "2017-02-08T06:39:42Z",
+        "checksum": "9209d33bf5083a43be7a7f16bfbbd269abff572f811cbd2760a9c15791c52c21",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ua/ua_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 270753584,
+        "timestamp": "2017-02-08T06:39:43Z",
+        "checksum": "27f576338e48b1431d84060fc25be91300d699188ce159a55499c21ef1ef7a57",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/cl/cl_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 358345244,
+        "timestamp": "2017-02-08T06:39:57Z",
+        "checksum": "88ab39244a1478897b499299391c770fb581eff894f10052040c78b1c460a70f",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsds/rsds_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294908,
+        "timestamp": "2017-02-08T06:40:19Z",
+        "checksum": "296cce5797534e475f76674d35c3672c0be761f71c68be60986dc5e886cb976f",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/cl/cl_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 430009148,
+        "timestamp": "2017-02-08T06:40:00Z",
+        "checksum": "297369a456d9b05624be10aee8d796efab77d41544c75aa1d479bd0ce895b2a3",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsds/rsds_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949404,
+        "timestamp": "2017-02-08T06:40:19Z",
+        "checksum": "2dde980e0cd5d980bc438282640d1d3398dc069fbf9575bd9bb2b912e0d2fe31",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/sci/sci_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294880,
+        "timestamp": "2017-02-08T06:39:41Z",
+        "checksum": "82fe26656f5595b687912cb3f1e3ae88c691dfbf6c119f71b841eef5b1f60211",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/sci/sci_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949376,
+        "timestamp": "2017-02-08T06:39:41Z",
+        "checksum": "4df923061b2bd5f53dc8ba2d9da3c6fb5432c72f4b7c1948b32c627ffb8d6884",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rlus/rlus_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294904,
+        "timestamp": "2017-02-08T06:40:11Z",
+        "checksum": "386e5d7f40754d8690bdbcd51b8c2c955da0863fb50f3b33fceecdba82bf8c80",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rlus/rlus_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949400,
+        "timestamp": "2017-02-08T06:40:11Z",
+        "checksum": "1fac298c96f1c792df08241f4f38f3e54fa5c520eb947ef4c6a1d071b896d9ba",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsutcs/rsutcs_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294928,
+        "timestamp": "2017-02-08T06:40:09Z",
+        "checksum": "59d81984f1e5f782eb3fdc954cfcaee2edfdf052cd92d3fc1e6fabf53d568710",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsutcs/rsutcs_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949424,
+        "timestamp": "2017-02-08T06:40:09Z",
+        "checksum": "f23fa319d470c3d97bf37b17402df44498e3434d2d684c6ae5d34660ed44e2fd",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsdt/rsdt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294940,
+        "timestamp": "2017-02-08T06:40:41Z",
+        "checksum": "2a49b77c77c924b34f1967dc089be08245026511aa6b6c3af3c60cab05bd4b78",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsdt/rsdt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949436,
+        "timestamp": "2017-02-08T06:40:41Z",
+        "checksum": "03aa0fbf82081ce986279569893c0319f0fec8df9c7544eb966f3fc0d5542b59",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tasmin/tasmin_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295188,
+        "timestamp": "2017-02-08T06:40:00Z",
+        "checksum": "180f786a53965ba251ab050c6b90f3ce2c2164ea70975f30f77737de3b3f0ec9",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/wap/wap_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 225632040,
+        "timestamp": "2017-02-08T06:39:52Z",
+        "checksum": "acf5fffd92d35f5a58f4a88e8200b324c8b00d8c13ef0863a9a25c43495db9c0",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tasmin/tasmin_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949684,
+        "timestamp": "2017-02-08T06:40:00Z",
+        "checksum": "a48e6478812ac8318f87334f70064052ac9b8eb8c21453a1cb6fe45b6187408b",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rlut/rlut_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294980,
+        "timestamp": "2017-02-08T06:40:05Z",
+        "checksum": "db412587dcc7aba893c50d3420742b790935f860ff868cac73a8d2397a7d5f19",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/wap/wap_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 270753864,
+        "timestamp": "2017-02-08T06:39:54Z",
+        "checksum": "0e1edd27eda77718653762e751be38ac804b236ad7c3d864cc329650c817b2ec",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rlut/rlut_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949476,
+        "timestamp": "2017-02-08T06:40:05Z",
+        "checksum": "d974395c5b4ab19bc5ff6672cc85464108424b350c7c59598e99147fea9a8eb0",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hurs/hurs_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949672,
+        "timestamp": "2017-02-08T06:40:08Z",
+        "checksum": "3acde659e6225d11186c0960c096d2f0c570b1d652f93ecbf71f1b0f022afee7",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/hurs/hurs_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295176,
+        "timestamp": "2017-02-08T06:40:09Z",
+        "checksum": "98693258364a76dbbd7a1eae06574d95ec0d12a8e2a1adeda2eca858c1c99def",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rldscs/rldscs_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294940,
+        "timestamp": "2017-02-08T06:40:04Z",
+        "checksum": "3f269681cb75cdf40c714bef6afb9f1fdbdaf4118f81d24f9fac5620d72d73d0",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rldscs/rldscs_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949436,
+        "timestamp": "2017-02-08T06:40:05Z",
+        "checksum": "a876a3e6b4b1f1e412715972158b5805e0456f1870598e060c11c09cfe47c6a6",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/psl/psl_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294820,
+        "timestamp": "2017-02-08T06:40:10Z",
+        "checksum": "e7bc88879d6796deb437ea5cde91eb7f3cc92b0c51eb23936c3589f8f471b671",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/psl/psl_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949316,
+        "timestamp": "2017-02-08T06:40:10Z",
+        "checksum": "0658b19481494d4886cc0df0e55030c498292c238a3d70b3bd7adaefbb9fcc52",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/pr/pr_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294908,
+        "timestamp": "2017-02-08T06:40:15Z",
+        "checksum": "f6c5a4835d1527658794150ba0d1e485651f2073e3a7ccf125f7b4d36a608f3a",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/pr/pr_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949404,
+        "timestamp": "2017-02-08T06:40:15Z",
+        "checksum": "f03d4c7bbba6b95c97d12c024393237cd559f8077bf73a1921073ce46b12981b",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tasmax/tasmax_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295188,
+        "timestamp": "2017-02-08T06:40:06Z",
+        "checksum": "224ffb5584713158da76c6afd42b564d7713f72b32ebaf8d6d15b0ed7d33e040",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/tasmax/tasmax_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949684,
+        "timestamp": "2017-02-08T06:40:06Z",
+        "checksum": "a2cbf495163bd5130fb0f669c4dc378052a7c4704de5b1af2f3e195330417be8",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ta/ta_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 225631744,
+        "timestamp": "2017-02-08T06:39:50Z",
+        "checksum": "06898f9a41c5cd722edf510d8d56c72ba643ae376176b0c5bb1de1806254bcdb",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/huss/huss_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295160,
+        "timestamp": "2017-02-08T06:40:15Z",
+        "checksum": "f14d7deae9385f1d1fef859b7472b5cb8837311b7d2a602c583892a877105994",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/huss/huss_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949656,
+        "timestamp": "2017-02-08T06:40:15Z",
+        "checksum": "210c6402f7d660c66732d8fcb3a2a010eccd6133f236ea843169462a54e9074c",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ta/ta_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 270753568,
+        "timestamp": "2017-02-08T06:39:48Z",
+        "checksum": "ca3c684a89e4529f4272f2c8be4cbbf9f7642625f4fc0721eeacb8ec317c6ec3",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/clw/clw_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 358345656,
+        "timestamp": "2017-02-08T06:40:41Z",
+        "checksum": "a1504530dc4c7f648b72332bfbb5f1ec962a885f2c01796e5f4f521802841a05",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/clw/clw_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 430009560,
+        "timestamp": "2017-02-08T06:40:36Z",
+        "checksum": "1f570b52a4527270efdcc723a0c43f85b264b7e4bd10ff1c5211106fd56c6e57",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/mc/mc_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 371616744,
+        "timestamp": "2017-02-08T06:40:25Z",
+        "checksum": "00d577652310e62f69e1850da57044a2ecd7eb86455c2ce461f6b6a233fb98ff",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/evspsbl/evspsbl_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13295044,
+        "timestamp": "2017-02-08T06:40:00Z",
+        "checksum": "5be263a886a2e0702f94862da5f986e003160244d81e0f992b1623249db8646b",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/evspsbl/evspsbl_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949540,
+        "timestamp": "2017-02-08T06:40:00Z",
+        "checksum": "5e09c745a05a73de4cbf70736239a15930f4a3b24c4122ce8a109a71a3095bda",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/mc/mc_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 445934856,
+        "timestamp": "2017-02-08T06:40:22Z",
+        "checksum": "c7ebe32becf7e0de431f51689579318df155577647ecea6da4f34125c9421e6a",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsuscs/rsuscs_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294940,
+        "timestamp": "2017-02-08T06:39:45Z",
+        "checksum": "33457cc6c6c4c85b17b3ff6faa306a35bf93c5bb8d10a8871db518cc91a5c3c8",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsus/rsus_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294904,
+        "timestamp": "2017-02-08T06:40:14Z",
+        "checksum": "ea77079e00711eb6ee70ce9eefb4c14f18de5a46cdd635c7da960e06c2959ea4",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsuscs/rsuscs_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949436,
+        "timestamp": "2017-02-08T06:39:45Z",
+        "checksum": "dadd47691c1bb8018b678ffb661d82aedd408a594b5a807f4a57d45b5872d920",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/zg/zg_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 225631752,
+        "timestamp": "2017-02-08T06:40:14Z",
+        "checksum": "1f89596e030717a45365dd6995e66da3baa721ed01a6242dbb4f9991561d3a1a",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsus/rsus_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949400,
+        "timestamp": "2017-02-08T06:40:14Z",
+        "checksum": "7528286b9a4c8460fbf021ec2988d2dd7695bcf0b30602f407682a94b47f16d4",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsut/rsut_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294948,
+        "timestamp": "2017-02-08T06:40:08Z",
+        "checksum": "1fb88ff2f8d62de508c7acdf2e6c842a6fecd253ff620832b75c0b342fcffb20",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsut/rsut_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949444,
+        "timestamp": "2017-02-08T06:40:08Z",
+        "checksum": "0510964af4c556914338c0b59265c8cadcd4b068a434bff720b6e563538545a7",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ts/ts_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294812,
+        "timestamp": "2017-02-08T06:40:19Z",
+        "checksum": "86ed8c8b204ac5c9aaf5c900bc99bbd3a78274ffe4c1686da9bfef4d91ed4a86",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/ts/ts_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949308,
+        "timestamp": "2017-02-08T06:40:19Z",
+        "checksum": "647f87f16f6e7d3ed1bd138a838bbee9010d51485a984e1aebb33421a59e9e0d",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/zg/zg_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 270753576,
+        "timestamp": "2017-02-08T06:40:12Z",
+        "checksum": "ac61e173fd40038d844049c37be0f701ed9453b374dd1b0f5cf164ffb5aa041c",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsdscs/rsdscs_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 13294944,
+        "timestamp": "2017-02-08T06:40:04Z",
+        "checksum": "b0cc3bf6d5298db0b5123e03cff3448053bef0e7eb127ee004878b2cad7b531d",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rsdscs/rsdscs_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 15949440,
+        "timestamp": "2017-02-08T06:40:04Z",
+        "checksum": "152230f0191410ba23cc89bf7c4e0716e230ef3604f666c547dfb00d0858408f",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/cli/cli_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "size": 358345636,
+        "timestamp": "2017-02-08T06:40:33Z",
+        "checksum": "a318c4a288fd2ff905318daf0346f4436c8047c525cb370c2e30ec0894dd20bd",
+        "checksum_type": "SHA256"
+    },
+    {
+        "file": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/cli/cli_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "size": 430009540,
+        "timestamp": "2017-02-08T06:40:31Z",
+        "checksum": "084aebbbfdcd795eefe983db9ac6814857e849605ab16651c54caf6929d26d8c",
+        "checksum_type": "SHA256"
+    }
+]
+
+Autocurator Scanfile dictionary:
+{
+    "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc": {
+        "Conventions": "CF-1.4",
+        "axes": [
+            [
+                "bnds",
+                "0"
+            ],
+            [
+                "lat",
+                "0"
+            ],
+            [
+                "lon",
+                "0"
+            ],
+            [
+                "time",
+                "0"
+            ]
+        ],
+        "history": "2012-05-17T01:43:02Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.",
+        "name": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc",
+        "tracking_id": "96cf0511-f778-48ab-8bfb-dbe31a0ee1c4"
+    },
+    "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc": {
+        "Conventions": "CF-1.4",
+        "axes": [
+            [
+                "bnds",
+                "0"
+            ],
+            [
+                "lat",
+                "0"
+            ],
+            [
+                "lon",
+                "0"
+            ],
+            [
+                "time",
+                "1"
+            ]
+        ],
+        "history": "2012-05-17T01:18:19Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.",
+        "name": "/p/css03/esgf_publish/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc",
+        "tracking_id": "a92ad704-8796-4a7e-9a86-fbd701bdb4e5"
+    }
+}
+
+Aggregate record:
+{
+    "project": "cmip5",
+    "product": "output1",
+    "institute": "NCAR",
+    "model": "CCSM4",
+    "experiment": "decadal2001",
+    "realm": "mon",
+    "time_frequency": "atmos",
+    "ensemble": "Amon",
+    "variable": [
+        "rtmt"
+    ],
+    "data_node": "greyworm1-rh7.llnl.gov",
+    "index_node": "esgf-fedtest.llnl.gov",
+    "master_id": "cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1",
+    "instance_id": "cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031",
+    "id": "cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031|greyworm1-rh7.llnl.gov",
+    "title": "cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1",
+    "replica": false,
+    "latest": "true",
+    "type": "Dataset",
+    "version": "20121031",
+    "dataset_id_template_": "%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s",
+    "directory_format_template_": "%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s",
+    "variable_long_name": [
+        "Net Downward Flux at Top of Model"
+    ],
+    "cf_standard_name": [
+        "net_downward_radiative_flux_at_top_of_atmosphere_model"
+    ],
+    "variable_units": [
+        "W m-2"
+    ],
+    "north_degrees": 90.0,
+    "south_degrees": -90.0,
+    "east_degrees": 358.75,
+    "west_degrees": 0.0,
+    "datetime_start": "2005-01-16T00:00:00Z",
+    "datetime_end": "2010-12-15T00:00:00Z",
+    "number_of_files": 92,
+    "size": 29244784,
+    "access": [
+        "HTTPServer",
+        "OPENDAP"
+    ]
+}
+Done.
+Updating...
+Search Url: 'https://esgf-fedtest.llnl.gov/esg-search/search/?latest=true&distrib=false&format=application%2Fsolr%2Bjson&data_node=greyworm1-rh7.llnl.gov&master_id=cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1&fields=version,id'
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":1,
+    "params":{
+      "df":"text",
+      "q.alt":"*:*",
+      "indent":"true",
+      "echoParams":"all",
+      "fl":"id,version,score",
+      "start":"0",
+      "fq":["type:Dataset",
+        "latest:true",
+        "data_node:\"greyworm1-rh7.llnl.gov\"",
+        "master_id:\"cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1\""],
+      "rows":"10",
+      "q":"*:*",
+      "tie":"0.01",
+      "facet.limit":"-1",
+      "qf":"text",
+      "facet.method":"enum",
+      "facet.mincount":"1",
+      "wt":"json",
+      "facet":"true",
+      "facet.sort":"lex"}},
+  "response":{"numFound":0,"start":0,"maxScore":0.0,"docs":[]
+  },
+  "facet_counts":{
+    "facet_queries":{},
+    "facet_fields":{},
+    "facet_ranges":{},
+    "facet_intervals":{},
+    "facet_heatmaps":{}}}
+
+INFO: First dataset version for cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1: v20121031.)
+Done.
+Running index pub...
+<doc>
+  <field name="project">cmip5</field>
+  <field name="product">output1</field>
+  <field name="institute">NCAR</field>
+  <field name="model">CCSM4</field>
+  <field name="experiment">decadal2001</field>
+  <field name="realm">mon</field>
+  <field name="time_frequency">atmos</field>
+  <field name="ensemble">Amon</field>
+  <field name="variable">rtmt</field>
+  <field name="data_node">greyworm1-rh7.llnl.gov</field>
+  <field name="index_node">esgf-fedtest.llnl.gov</field>
+  <field name="master_id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1</field>
+  <field name="instance_id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031</field>
+  <field name="id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031.rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc</field>
+  <field name="title">rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc</field>
+  <field name="replica">False</field>
+  <field name="latest">true</field>
+  <field name="type">File</field>
+  <field name="version">20121031</field>
+  <field name="dataset_id_template_">%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s</field>
+  <field name="directory_format_template_">%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s</field>
+  <field name="variable_long_name">Net Downward Flux at Top of Model</field>
+  <field name="cf_standard_name">net_downward_radiative_flux_at_top_of_atmosphere_model</field>
+  <field name="variable_units">W m-2</field>
+  <field name="north_degrees">90.0</field>
+  <field name="south_degrees">-90.0</field>
+  <field name="east_degrees">358.75</field>
+  <field name="west_degrees">0.0</field>
+  <field name="dataset_id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031|greyworm1-rh7.llnl.gov</field>
+  <field name="tracking_id">a92ad704-8796-4a7e-9a86-fbd701bdb4e5</field>
+  <field name="size">13295144</field>
+  <field name="timestamp">2017-02-08T06:39:40Z</field>
+  <field name="checksum">81ead66ba35b3f8619ee758cee3465b3be88b7a691a7792b6fb13c616117dbec</field>
+  <field name="checksum_type">SHA256</field>
+  <field name="url">https://greyworm1-rh7.llnl.gov/thredds/fileServer/css03_data/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc|application/netcdf|HTTPServer</field>
+  <field name="url">https://greyworm1-rh7.llnl.gov/thredds/dodsC/css03_data/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc.html|application/opendap-html|OPENDAP</field>
+  <field name="url">None</field>
+  <field name="url">None</field>
+</doc>
+
+<?xml version="1.0" encoding="UTF-8"?><response status="success"><message>Published record: cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031.rtmt_Amon_CCSM4_decadal2001_r1i2p1_200101-200512.nc</message></response>
+<doc>
+  <field name="project">cmip5</field>
+  <field name="product">output1</field>
+  <field name="institute">NCAR</field>
+  <field name="model">CCSM4</field>
+  <field name="experiment">decadal2001</field>
+  <field name="realm">mon</field>
+  <field name="time_frequency">atmos</field>
+  <field name="ensemble">Amon</field>
+  <field name="variable">rtmt</field>
+  <field name="data_node">greyworm1-rh7.llnl.gov</field>
+  <field name="index_node">esgf-fedtest.llnl.gov</field>
+  <field name="master_id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1</field>
+  <field name="instance_id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031</field>
+  <field name="id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031.rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc</field>
+  <field name="title">rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc</field>
+  <field name="replica">False</field>
+  <field name="latest">true</field>
+  <field name="type">File</field>
+  <field name="version">20121031</field>
+  <field name="dataset_id_template_">%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s</field>
+  <field name="directory_format_template_">%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s</field>
+  <field name="variable_long_name">Net Downward Flux at Top of Model</field>
+  <field name="cf_standard_name">net_downward_radiative_flux_at_top_of_atmosphere_model</field>
+  <field name="variable_units">W m-2</field>
+  <field name="north_degrees">90.0</field>
+  <field name="south_degrees">-90.0</field>
+  <field name="east_degrees">358.75</field>
+  <field name="west_degrees">0.0</field>
+  <field name="dataset_id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031|greyworm1-rh7.llnl.gov</field>
+  <field name="tracking_id">96cf0511-f778-48ab-8bfb-dbe31a0ee1c4</field>
+  <field name="size">15949640</field>
+  <field name="timestamp">2017-02-08T06:39:41Z</field>
+  <field name="checksum">9afc2277ecf76043b0fc297ae95033e9897ab73923eeff2dda9a15bf0d5fbb89</field>
+  <field name="checksum_type">SHA256</field>
+  <field name="url">https://greyworm1-rh7.llnl.gov/thredds/fileServer/css03_data/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc|application/netcdf|HTTPServer</field>
+  <field name="url">https://greyworm1-rh7.llnl.gov/thredds/dodsC/css03_data/cmip5/gdo2/cmip5/output1/NCAR/CCSM4/decadal2001/mon/atmos/Amon/r1i2p1/v20121031/rtmt/rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc.html|application/opendap-html|OPENDAP</field>
+</doc>
+
+<?xml version="1.0" encoding="UTF-8"?><response status="success"><message>Published record: cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031.rtmt_Amon_CCSM4_decadal2001_r1i2p1_200501-201012.nc</message></response>
+<doc>
+  <field name="project">cmip5</field>
+  <field name="product">output1</field>
+  <field name="institute">NCAR</field>
+  <field name="model">CCSM4</field>
+  <field name="experiment">decadal2001</field>
+  <field name="realm">mon</field>
+  <field name="time_frequency">atmos</field>
+  <field name="ensemble">Amon</field>
+  <field name="variable">rtmt</field>
+  <field name="data_node">greyworm1-rh7.llnl.gov</field>
+  <field name="index_node">esgf-fedtest.llnl.gov</field>
+  <field name="master_id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1</field>
+  <field name="instance_id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031</field>
+  <field name="id">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031|greyworm1-rh7.llnl.gov</field>
+  <field name="title">cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1</field>
+  <field name="replica">False</field>
+  <field name="latest">true</field>
+  <field name="type">Dataset</field>
+  <field name="version">20121031</field>
+  <field name="dataset_id_template_">%(project)s.%(product)s.%(institute)s.%(model)s.%(experiment)s.%(realm)s.%(time_frequency)s.%(ensemble)s</field>
+  <field name="directory_format_template_">%(root)s/%(project)s/%(product)s/%(institute)s/%(model)s/%(experiment)s/%(realm)s/%(time_frequency)s/%(ensemble)s/%(version)s</field>
+  <field name="variable_long_name">Net Downward Flux at Top of Model</field>
+  <field name="cf_standard_name">net_downward_radiative_flux_at_top_of_atmosphere_model</field>
+  <field name="variable_units">W m-2</field>
+  <field name="north_degrees">90.0</field>
+  <field name="south_degrees">-90.0</field>
+  <field name="east_degrees">358.75</field>
+  <field name="west_degrees">0.0</field>
+  <field name="datetime_start">2005-01-16T00:00:00Z</field>
+  <field name="datetime_end">2010-12-15T00:00:00Z</field>
+  <field name="number_of_files">92</field>
+  <field name="size">29244784</field>
+  <field name="access">HTTPServer</field>
+  <field name="access">OPENDAP</field>
+</doc>
+
+<?xml version="1.0" encoding="UTF-8"?><response status="success"><message>Published record: cmip5.output1.NCAR.CCSM4.decadal2001.mon.atmos.Amon.r1i2p1.v20121031|greyworm1-rh7.llnl.gov</message></response>
+Done. Cleaning up.
