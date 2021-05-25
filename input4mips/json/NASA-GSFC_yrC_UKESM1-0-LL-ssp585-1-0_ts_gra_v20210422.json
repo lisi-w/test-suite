@@ -1,0 +1,40 @@
+{
+    "input4MIPs-ISMIP6-ErikaSimon":{
+        "Conventions":"CF-1.6",
+        "activity_id":"input4MIPs",
+        "contact":"ISMIP6 Steering Team (ismip6@gmail.com)",
+        "creation_date":"2020-09-18T13:42:49Z",
+        "dataset_category":"surfaceFluxes",
+        "dataset_status":"latest",
+        "deprecated":false,
+        "file_list":[
+            "/p/user_pub/work/input4MIPs/CMIP6/ISMIP6/NASA-GSFC/UKESM1-0-LL-ssp585-1-0/landIce/yrC/ts/gra/v20210422/ts_input4MIPs_surfaceFluxes_ISMIP6_UKESM1-0-LL-ssp585-1-0_gra_1950-2100.nc"
+        ],
+        "frequency":"yrC",
+        "further_info_url":"http://www.climate-cryosphere.org/wiki/index.php?title=ISMIP6_wiki_page",
+        "grid_label":"gra",
+        "institution":"NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+        "institution_id":"NASA-GSFC",
+        "mip_era":"CMIP6",
+        "nominal_resolution":"10 km",
+        "product":"forcing_dataset",
+        "project":"input4MIPs",
+        "realm":"landIce",
+        "realm_drs":"landIce",
+        "retracted":false,
+        "source":"UKESM1-0-LL-ssp585-1-0 derived dataset computed from CMIP6 UKESM1-0-LL historical and ssp585 simulations for ISMIP6",
+        "source_id":"UKESM1-0-LL-ssp585-1-0",
+        "source_version":"1.0",
+        "target_mip":"ISMIP6",
+        "target_mip_list":[
+            "ISMIP6"
+        ],
+        "timestamp":"2021-04-22T15:45:16Z",
+        "title":"ISMIP6 (CMIP6) - UKESM1-0-LL-ssp585-1-0 derived data prepared for input4MIPs",
+        "tracking_id_list":[
+            "hdl:21.14100/b4578b88-2ad5-4b85-b3d5-6df64a46a344"
+        ],
+        "variable_id":"ts",
+        "version":"v20210422"
+    }
+}

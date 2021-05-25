@@ -1,0 +1,44 @@
+{
+    "input4MIPs-ISMIP6-ErikaSimon":{
+        "Conventions":"CF-1.7 CMIP-6.2",
+        "activity_id":"input4MIPs",
+        "contact":"ISMIP6 Steering Team (ismip6@gmail.com)",
+        "creation_date":"2020-10-27T17:21:09Z",
+        "dataset_category":"surfaceFluxes",
+        "dataset_status":"latest",
+        "deprecated":false,
+        "file_list":[
+            "/p/user_pub/work/input4MIPs/CMIP6/ISMIP6/NASA-GSFC/UKESM1-0-LL-ssp585-1-0/ocean/yrC/thetao/gra/v20210422/thetao_input4MIPs_surfaceFluxes_ISMIP6_UKESM1-0-LL-ssp585-1-0_gra_1995-2030.nc",
+            "/p/user_pub/work/input4MIPs/CMIP6/ISMIP6/NASA-GSFC/UKESM1-0-LL-ssp585-1-0/ocean/yrC/thetao/gra/v20210422/thetao_input4MIPs_surfaceFluxes_ISMIP6_UKESM1-0-LL-ssp585-1-0_gra_2031-2070.nc",
+            "/p/user_pub/work/input4MIPs/CMIP6/ISMIP6/NASA-GSFC/UKESM1-0-LL-ssp585-1-0/ocean/yrC/thetao/gra/v20210422/thetao_input4MIPs_surfaceFluxes_ISMIP6_UKESM1-0-LL-ssp585-1-0_gra_2071-2100.nc"
+        ],
+        "frequency":"yrC",
+        "further_info_url":"http://www.climate-cryosphere.org/wiki/index.php?title=ISMIP6_wiki_page",
+        "grid_label":"gra",
+        "institution":"NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+        "institution_id":"NASA-GSFC",
+        "mip_era":"CMIP6",
+        "nominal_resolution":"10 km",
+        "product":"forcing_dataset",
+        "project":"input4MIPs",
+        "realm":"ocean",
+        "realm_drs":"ocean",
+        "retracted":false,
+        "source":"UKESM1-0-LL-ssp585-1-0 derived dataset computed from CMIP6 UKESM1-0-LL historical and ssp585 simulations for ISMIP6",
+        "source_id":"UKESM1-0-LL-ssp585-1-0",
+        "source_version":"1.0",
+        "target_mip":"ISMIP6",
+        "target_mip_list":[
+            "ISMIP6"
+        ],
+        "timestamp":"2021-04-22T15:45:18Z",
+        "title":"ISMIP6 (CMIP6) - UKESM1-0-LL-ssp585-1-0 derived data prepared for input4MIPs",
+        "tracking_id_list":[
+            "hdl:21.14100/bba12533-d9f8-4c40-a921-c8406077ce9d",
+            "hdl:21.14100/bba12533-d9f8-4c40-a921-c8406077ce9d",
+            "hdl:21.14100/bba12533-d9f8-4c40-a921-c8406077ce9d"
+        ],
+        "variable_id":"thetao",
+        "version":"v20210422"
+    }
+}
