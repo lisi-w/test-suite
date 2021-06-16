@@ -15,20 +15,16 @@ pubenv=pub
 
 upone=`dirname $INDIR`
 DESTDIR="$upone/input4MIPs-list-done"
-if [ ! -d $DESTDIR ] ;then
-
-    echo $DESTDIR not readable
-    exit 1
-
-fi
+mkdir $DESTDIR
 
 #inidir=$HOME/config/publisher-configs/ini
 inidir=/p/user_pub/publish-queue/tmp
-tmpdir=$HOME/tmpfiles
+tmpdir=$wd/input4mips/tmpfiles
 mkdir -p $tmpdir
 
-archdir=$HOME/pub-workflows-archive
+archdir=$wd/input4mips/pub-workflows-archive
 pushd $tmpdir
+mkdir $archdir
 
 pycmd=$wd/get_dir_lst.py
 success=0
@@ -60,7 +56,7 @@ for fn in `ls $INDIR` ; do
 #	export LD_LIBRARY_PATH=$CONDA_PREFIX/lib
         for mapfn in `ls mapfiles` ; do
           ls -l mapfiles/$mapfn
-          esgpublish --json $jsonfn --ini ~/.esg/test.ini --verbose --project input4mips --map mapfiles/$mapfn
+          esgpublish --no-auth --json $jsonfn --ini $wd/test.ini --verbose --project input4mips --map mapfiles/$mapfn
           if [ ! $? -eq 0 ] ; then
 	      echo [FAIL] $mapfn
               success=1

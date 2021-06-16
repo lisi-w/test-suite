@@ -1,0 +1,6 @@
+/p/user_pub/work/input4MIPs/CMIP6/CMIP/PCMDI/PCMDI_fx_PCMDI-AMIP-1-1-5_sftof_gn_v20190124.json
+/p/user_pub/work/input4MIPs/CMIP6/CMIP/PCMDI/PCMDI_fx_PCMDI-AMIP-1-1-5_areacello_gn_v20190124.json
+/p/user_pub/work/input4MIPs/CMIP6/CMIP/PCMDI/PCMDI_mon_PCMDI-AMIP-1-1-5_tos_gn_v20190124.json
+/p/user_pub/work/input4MIPs/CMIP6/CMIP/PCMDI/PCMDI_mon_PCMDI-AMIP-1-1-5_tosbcs_gn_v20190124.json
+/p/user_pub/work/input4MIPs/CMIP6/CMIP/PCMDI/PCMDI_mon_PCMDI-AMIP-1-1-5_siconc_gn_v20190124.json
+/p/user_pub/work/input4MIPs/CMIP6/CMIP/PCMDI/PCMDI_mon_PCMDI-AMIP-1-1-5_siconcbcs_gn_v20190124.json

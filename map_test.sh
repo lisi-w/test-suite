@@ -18,9 +18,9 @@ echo testing list of files containing list of mapfiles
 esgpublish --ini $DIR/test.ini --no-auth --map $DIR/CMIP6/maps.txt $DIR/CMIP6/maps.txt
 
 
-#echo testing custom project NARR_Hydrology
-#esgpublish --ini $DIR/custom.ini --map $DIR/NARR_Hydrology/NARR_Hydrology.SCU.vicoutput-pconst.narr_LOCA_wrf.mon.tas.v1.map
-#esgpublish --ini $DIR/custom2.ini --map $DIR/NARR_Hydrology/NARR_Hydrology.SCU.elev.v1.map
+echo testing custom project NARR_Hydrology
+esgpublish --ini $DIR/custom.ini --no-auth --map $DIR/NARR_Hydrology/NARR_Hydrology.SCU.vicoutput-pconst.narr_LOCA_wrf.mon.tas.v1.map
+esgpublish --ini $DIR/custom2.ini --no-auth --map $DIR/NARR_Hydrology/NARR_Hydrology.SCU.elev.v1.map
 
 
 echo testing CREATE-IP
@@ -35,5 +35,7 @@ echo testing cordex
 esgpublish --ini $DIR/test.ini --no-auth --project cordex --map $DIR/cordex/*.map
 
 
+echo testing e3sm
+esgpublish --ini $DIR/test.ini --json e3sm_xattr.json --no-auth --project E3SM --map $DIR/E3SM/*.map
+
 echo testing input4MIPs
-esgpublish --ini $DIR/test.ini --no-auth --project input4MIPs --map $DIR/input4mips/*.map
