@@ -36,6 +36,9 @@ esgpublish --ini $DIR/test.ini --no-auth --project cordex --map $DIR/cordex/*.ma
 
 
 echo testing e3sm
-esgpublish --ini $DIR/test.ini --json e3sm_xattr.json --no-auth --project E3SM --map $DIR/E3SM/*.map
+esgpublish --ini $DIR/test.ini --json e3sm_xattr.json --no-auth --project E3SM --map $DIR/E3SM/model-output/*.map
+esgpublish --ini $DIR/test.ini --json e3sm_xattr.json --no-auth --project E3SM --map $DIR/E3SM/time-series/*.map
+esgpublish --ini $DIR/test.ini --json e3sm_xattr.json --no-auth --project E3SM --map $DIR/E3SM/climo/*.map
+esgpublish --ini $DIR/e3sm-mapping.ini --json e3sm_xattr.json --no-auth --project E3SM --map $DIR/E3SM/mapping/*.map
 
 echo testing input4MIPs

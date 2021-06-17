@@ -1,0 +1,1 @@
+Error opening config file: While reading from 'test.ini' [line 42]: option 'data_roots' in section 'user' already exists

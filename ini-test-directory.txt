@@ -1,0 +1,1 @@
+Config file path is a directory. Please use a complete file path.

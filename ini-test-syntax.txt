@@ -1,0 +1,2 @@
+Error opening config file: Source contains parsing errors: 'test-bad.ini'
+	[line 39]: '= foo\n'
