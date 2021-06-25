@@ -7,15 +7,15 @@ conda activate $ENV
 
 echo testing CMIP6 and different map input
 echo directory test, can list multiple directories, but must be same project
-esgpublish --ini $DIR/test.ini --no-auth --map $DIR/CMIP6/*.map
+esgpublish --ini $DIR/test.ini --project CMIP6 --no-auth --map $DIR/CMIP6/*.map
 echo regular mapfile test
-esgpublish --ini $DIR/test.ini --no-auth --map $DIR/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2017-r1i1p1f1.Amon.prw.gn.v20210114.map
+esgpublish --ini $DIR/test.ini --project CMIP6 --no-auth --map $DIR/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2017-r1i1p1f1.Amon.prw.gn.v20210114.map
 echo list of mapfiles test
-esgpublish --ini $DIR/test.ini --no-auth --map $DIR/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2017-r1i1p1f1.Amon.prw.gn.v20210114.map $DIR/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2017-r1i1p1f1.Amon.psl.gn.v20210114.map
+esgpublish --ini $DIR/test.ini --project CMIP6 --no-auth --map $DIR/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2017-r1i1p1f1.Amon.prw.gn.v20210114.map $DIR/CMIP6/CMIP6.DCPP.MRI.MRI-ESM2-0.dcppA-hindcast.s2017-r1i1p1f1.Amon.psl.gn.v20210114.map
 echo testing file containing list of mapfiles, must be absolute paths
-esgpublish --ini $DIR/test.ini --no-auth --map $DIR/CMIP6/maps.txt
+esgpublish --ini $DIR/test.ini --project CMIP6 --no-auth --map $DIR/CMIP6/maps.txt
 echo testing list of files containing list of mapfiles
-esgpublish --ini $DIR/test.ini --no-auth --map $DIR/CMIP6/maps.txt $DIR/CMIP6/maps.txt
+esgpublish --ini $DIR/test.ini --project CMIP6 --no-auth --map $DIR/CMIP6/maps.txt $DIR/CMIP6/maps.txt
 
 
 echo testing custom project NARR_Hydrology
