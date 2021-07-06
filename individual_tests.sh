@@ -21,3 +21,5 @@ esgindexpub --no-auth --ini $DIR/test.ini --pub-rec $DIR/pid-rec-test.json
 echo esgmigrate test
 esgmigrate --old-config ./ --destination ./new-esg.ini --verbose 
 cat ./new-esg.ini
+echo mountpoint mapping test
+esgpublish --ini $DIR/test.ini --verbose --project CMIP6 --no-auth --map $DIR/mountpoint-map-test/
