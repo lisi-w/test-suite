@@ -1,0 +1,26 @@
+---
+data_node: "greyworm1-rh7.llnl.gov"
+index_node: "esgf-fedtest.llnl.gov"
+autoc_path: "autocurator"
+data_roots:
+  /esg/data: "esgf_data"
+test: "true"
+project: "NARR_Hydrology"
+user_project_config:
+  NARR_Hydrology:
+    DRS:
+      - project
+      - institute
+      - product
+    CONST_ATTR:
+      project: "NARR_Hydrology"
+      activity_id: "NARR_Hydrology"
+      institute: "SCU"
+      institution_id: "SCU"
+non_netcdf: "False"
+set_replica: "false"
+globus_uuid: "none"
+data_transfer_node: "none"
+silent: "false"
+verbose: "false"
+

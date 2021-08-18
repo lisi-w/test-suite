@@ -56,7 +56,7 @@ for fn in `ls $INDIR` ; do
 #	export LD_LIBRARY_PATH=$CONDA_PREFIX/lib
         for mapfn in `ls mapfiles` ; do
           ls -l mapfiles/$mapfn
-          esgpublish --no-auth --json $jsonfn --ini $wd/test.ini --verbose --project input4mips --map mapfiles/$mapfn
+          esgpublish --no-auth --json $jsonfn --config $wd/test.yaml --verbose --project input4mips --map mapfiles/$mapfn
           if [ ! $? -eq 0 ] ; then
 	      echo [FAIL] $mapfn
               success=1

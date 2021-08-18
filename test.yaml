@@ -1,0 +1,24 @@
+---
+data_node: "greyworm1-rh7.llnl.gov"
+index_node: "esgf-fedtest.llnl.gov"
+cmor_path: ""
+autoc_path: "autocurator"
+data_roots:
+  /esg/data: "esgf_data"
+test: "true"
+project: "CMIP6"
+non_netcdf: "False"
+set_replica: "false"
+globus_uuid: "none"
+data_transfer_node: "none"
+pid_creds:
+  url: "aims4.llnl.gov"
+  port: 7070
+  vhost: "esgf-pid"
+  user: "esgf-publisher"
+  password: "<password>"
+  ssl_enabled: true
+  priority: 1
+silent: "false"
+verbose: "false"
+

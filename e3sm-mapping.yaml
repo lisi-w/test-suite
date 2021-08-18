@@ -1,0 +1,15 @@
+---
+data_node: "greyworm1-rh7.llnl.gov"
+index_node: "esgf-fedtest.llnl.gov"
+cmor_path: 
+autoc_path: "autocurator"
+data_roots:
+test: "true"
+project: "E3SM"
+non_netcdf: "true"
+set_replica: "false"
+globus_uuid: "none"
+data_transfer_node: "none"
+silent: "false"
+verbose: "false"
+
