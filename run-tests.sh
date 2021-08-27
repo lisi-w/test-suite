@@ -3,7 +3,7 @@ mkdir $wd/tmp
 LOGDIR=$wd/tmp
 check_exit () {
   LOG=$1
-  ERRS=$(cat $LOG | grep error | wc -l)
+  ERRS=$(cat $LOG | grep ERROR | wc -l)
   if [ $ERRS -gt 0 ]
   then
     echo "ERROR encountered. See $LOG for details. Exiting."
